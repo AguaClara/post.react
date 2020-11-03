@@ -1,2 +1,2 @@
 # post.react
-Static side of new POST site
+New POST site!
