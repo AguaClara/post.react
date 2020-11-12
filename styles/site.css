@@ -6,7 +6,7 @@ body{
 .navbar{
     background-color: #10374E;
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     z-index: 10;
 
@@ -31,6 +31,30 @@ nav ul li a{
     color:#ffffff;
   
   }
-.nav-plants .subscribe-link {
+/* .nav-plants .subscribe-link {
     ;
+} */
+
+/*cards on the home page*/
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    margin: 10px 30px;
+}
+.card-main{
+    background-color: lightblue;
+    padding: 10px 20px;
+}
+
+.card-main:hover{
+    background-color: rgb(152, 191, 204);
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
 }
