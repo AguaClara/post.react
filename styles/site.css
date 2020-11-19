@@ -69,3 +69,19 @@ nav ul li a{
 .card:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
 }
+
+/* Mobile */
+@media (max-width: 700px) {
+    p {
+      font-size: 18px;
+    }
+    
+    /*nav bar*/
+    .header{
+      display:flex;
+      flex-direction: column;
+    }
+    .nav-logo{
+      width:100%;
+    }
+}
