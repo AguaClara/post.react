@@ -6,11 +6,12 @@ body{
 .navbar{
     background-color: #10374E;
     display: flex;
-    position: fixed; 
+    position: relative; 
     width: 100%;
     z-index: 10;
     font-family: 'Rajdhani', sans-serif;
     max-height: 250px;
+    overflow-y: scroll; 
 }
 nav ul{
     display: flex;
@@ -42,7 +43,7 @@ nav ul li a{
 } 
 
 .subscribe-link {
-    background-color: #39B54A;
+    background-color: #;
     color: white;
 }
 
