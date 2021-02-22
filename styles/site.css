@@ -45,6 +45,7 @@ nav ul li a{
     text-decoration: none;
     color:#ffffff;
     border-radius: 3px;
+}
   
 /* a.navname,a:hover {
     background: #1b9bff; 
@@ -61,11 +62,11 @@ nav ul li a{
 }  */
 
 .subscribe-link {
-    background-color: #;
+    background-color: #39B54A;
     color: white;
 }
 
-/*cards on the home page*/
+/*cards on home page*/
 .card-container{
     display: flex;
     flex-direction: row;
@@ -75,13 +76,28 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
-    margin: 10px 30px;
+    margin: 10px 30px 30px 30px;
+    border-radius: 5px 5px 0 0;
 }
 .card-main{
+    /* background-image: url(“images/agalteca-map.png”); */
     background-color: lightblue;
-    padding: 10px 20px;
+    padding: 20px 60px;
+    border-radius: 5px 5px 0 0;
+    text-transform: uppercase;
+    font-size: 24px;
 }
-
+.card-bottom{
+    padding: 0px 10px;
+}
+.card-bottom .card-metric{
+    font-family:  sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #4D4A4A;
+}
 .card-main:hover{
     background-color: rgb(152, 191, 204);
 }
