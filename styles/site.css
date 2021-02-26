@@ -13,17 +13,7 @@ body{
     background-color: #10374E;
     transition: .5s;
     font-family: 'Rajdhani', sans-serif;
-    /*display: flex;
-    position: relative; 
-    z-index: 10;
-    
-    max-height: 250px;
-     overflow-y: scroll; 
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box; 
-    */
+
 }
 
 header{
@@ -39,9 +29,7 @@ header::after{
 
 nav{
     float: right;
-    /* width: 100%;  
-    margin: 0 auto;
-    */
+
 }
 
 
@@ -55,15 +43,10 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
-  
-   /*    float: right;
-    margin-right: 20px; */
-  
+ 
 }
 nav ul li{
     display: inline-block;
-    
-  /* line-height: 80px;  */ 
     margin-left: 70px;
     padding-top: 35px;
 
@@ -74,11 +57,7 @@ nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 28px;
-    /*margin: auto;
-    display: center;
-    text-align: right;
-    padding: 10px 5px;
-    border-radius: 3px;*/
+
 }
 
 nav a:hover{
@@ -103,10 +82,7 @@ nav a:hover::before{
     width: 100%;
 
 }
-/*.subscribe-link {
-    background-color: #39B54A;
-    color: white;
-} */
+
 
 /*cards on home page*/
 .card-container{
@@ -147,13 +123,13 @@ nav a:hover::before{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
 }
 
-/* Mobile 
+/* Mobile */
 @media (max-width: 700px) {
     p {
       font-size: 18px;
     }
     
-    /*nav bar
+    /*nav bar*/
     .header{
       display:flex;
       flex-direction: column;
@@ -161,4 +137,4 @@ nav a:hover::before{
     .nav-logo{
       width:100%;
     }
-}*/*/
+}
