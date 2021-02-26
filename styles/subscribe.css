@@ -35,13 +35,13 @@ nav{
     background-color: #10374E;
     display: flex;
     position: relative; 
-    width: 100%;
+    width: 80%;
     z-index: 10;
     font-family: 'Rajdhani', sans-serif;
     max-height: 250px;
     overflow-y: scroll; 
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box; 
