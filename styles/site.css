@@ -1,88 +1,72 @@
 body{
     margin: 0px;
     font-family: sans-serif;
-    width: 90%;
-    margin: 0 auto;
-    font-weight: 400;
-    background:rgb(225, 236, 240); 
 }
-
-.navbar{
-    width: 100%;
-    margin: 0 auto;
-    background-color: #10374E;
-    transition: .5s;
-    font-family: 'Rajdhani', sans-serif;
-
+main{
+    padding: 20px 10px;
 }
-
-header{
-    background:rgb(225,236,240);
-}
-
-header::after{
-    content: '';
-    display: table;
-    clear: both;
-}
-
-
 nav{
-    float: right;
-
+    width: 100%; 
 }
-
-
-.nav-logo {
-    float: left;
-    padding: 10px 0;
-   
-}
-
-nav ul{
-    margin: 0;
+.navbar{
+    background-color: #10374E;
+    display: flex;
+    position: relative; 
+    width: 100%;
+    z-index: 10;
+    font-family: 'Rajdhani', sans-serif;
+    max-height: 250px;
+    overflow-y: scroll; 
     padding: 0;
+    margin: 0;
+    text-decoration: none;
     list-style: none;
- 
+    box-sizing: border-box; 
+    transition: .5s; 
+}
+nav ul{
+    float: right; 
+    margin-right: 20px;
+   /* display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 50px auto;  */
 }
 nav ul li{
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 35px;
-
-    position: relative;
+    line-height: 80px; 
+    margin: 0 5px;
   }
 nav ul li a{
-    color:#070707; 
-    text-decoration: none;
-    text-transform: uppercase;
+    margin: auto;
+    display: center;
+    text-align: right;
+    padding: 10px 5px;
     font-size: 28px;
-
+    text-decoration: none;
+    color:#ffffff;
+    border-radius: 3px;
 }
-
-nav a:hover{
-    color:rgb(152, 191, 204);
+  
+/* a.navname,a:hover {
+    background: #1b9bff; 
+    transition: .5s; 
+} */
+  /* }
+.nav-logo {
+    padding-top: 20px;
+   
 }
+.nav-plants {
+    padding-left: 500px; 
+    
+}  */
 
-nav a::before{
-    content: '';
-    display: block;
-    height: 5px;
-    width: 100%;
-    background-color: rgb(152, 191, 204);
-
-    position: absolute;
-    top: 0;
-     width: 0%; 
-
-    transition: all ease-in-out 250ms;
+.subscribe-link {
+    background-color: #39B54A;
+    color: white;
 }
-
-nav a:hover::before{
-    width: 100%;
-
-}
-
 
 /*cards on home page*/
 .card-container{
@@ -121,6 +105,15 @@ nav a:hover::before{
 }
 .card:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+}
+
+footer{
+    padding: 10px 40px;
+    background-color: #10374E;
+}
+
+footer .about-us{
+    color: azure;
 }
 
 /* Mobile */
