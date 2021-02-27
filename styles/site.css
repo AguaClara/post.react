@@ -6,6 +6,10 @@ body{
     font-weight: 400;
     background:rgb(225, 236, 240); 
 }
+main{
+    padding: 20px 10px;
+}
+
 
 .navbar{
     width: 100%;
@@ -16,9 +20,6 @@ body{
 
 }
 
-header{
-    background:rgb(225,236,240);
-}
 
 header::after{
     content: '';
@@ -83,7 +84,6 @@ nav a:hover::before{
 
 }
 
-
 /*cards on home page*/
 .card-container{
     display: flex;
@@ -121,6 +121,15 @@ nav a:hover::before{
 }
 .card:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+}
+
+footer{
+    padding: 10px 40px;
+    background-color: #10374E;
+}
+
+footer .about-us{
+    color: azure;
 }
 
 /* Mobile */
