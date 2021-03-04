@@ -1,22 +1,35 @@
 body{
     margin: 0px;
     font-family: sans-serif;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     font-weight: 400;
     background:rgb(225, 236, 240); 
+
 }
+
+
 main{
     padding: 20px 10px;
 }
 
+.header{
+    margin-top: 125px;
+}
 
 .navbar{
     width: 100%;
     margin: 0 auto;
-    background-color: #10374E;
+    background-color: #10374E; 
     transition: .5s;
     font-family: 'Rajdhani', sans-serif;
+   
+    top: 0;
+    left: 0;
+    height: 125px;
+    padding: 10px 100px;
+    position: fixed;
+    box-sizing: border-box;
 
 }
 
@@ -30,6 +43,7 @@ header::after{
 
 nav{
     float: right;
+    
 
 }
 
@@ -37,7 +51,7 @@ nav{
 .nav-logo {
     float: left;
     padding: 10px 0;
-   
+    
 }
 
 nav ul{
@@ -45,6 +59,7 @@ nav ul{
     padding: 0;
     list-style: none;
  
+    display: flex;
 }
 nav ul li{
     display: inline-block;
