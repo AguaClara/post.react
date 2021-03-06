@@ -83,6 +83,11 @@ nav a:hover::before{
     width: 100%;
 }
 
+/*make dropdown appear on hover. CHANGE TO JS*/
+.navplants:hover + .hidden {
+    display: block;
+}
+
 /*navbar: plants dropdown*/
 .nav-dropdown{
     position: absolute;
