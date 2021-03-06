@@ -27,7 +27,7 @@ input{
 }
 
 input.name, input.email, input.password, input.repeat {
-    weight: 100%;
+    width: 100%;
 }
 
 input.subscribe{

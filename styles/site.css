@@ -30,6 +30,9 @@ main{
 
 }
 
+.pagecontent{
+    margin-top: 125px;
+}
 header::after{
     content: '';
     display: table;
