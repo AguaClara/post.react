@@ -10,11 +10,6 @@ main{
     padding: 20px 10px;
 }
 
-/*hidden class: hide/show elements using JS*/
-.hidden{
-    display: none;
-}
-
 /*header and nav bar*/
 .navbar{
     width: 100%;
@@ -44,14 +39,17 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 nav ul li{
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 35px;
-
+    /* margin-left: 70px; */
+    margin: 35px 40px 0px 40px;
     position: relative;
+    text-align:center;
   }
 
 nav ul li a{
@@ -59,6 +57,8 @@ nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 28px;
+    margin: auto;
+    /* margin: 0px 50px; */
 }
 
 nav a:hover{
@@ -83,7 +83,28 @@ nav a:hover::before{
     width: 100%;
 }
 
-/*plants dropdown (nav)*/
+/*navbar: plants dropdown*/
+.nav-dropdown{
+    position: absolute;
+    /* width: 150px; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(225, 236, 240);
+    border: 1px solid #10374e;
+    border-radius: 5px;
+}
+
+.nav-dropdown li{
+    padding: 5px;
+    margin:0px;
+    text-align: left;
+    /*background-color: #eff2f3; */
+    border:none;
+}
+
+.nav-dropdown li a{
+    font-size: 20px;
+}
 
 
 /*cards on home page*/
@@ -132,6 +153,11 @@ footer{
 
 footer .about-us{
     color: azure;
+}
+
+/*hidden class: hide/show elements using JS*/
+.hidden{
+    display: none;
 }
 
 /* Mobile */
