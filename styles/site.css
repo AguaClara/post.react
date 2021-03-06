@@ -10,7 +10,12 @@ main{
     padding: 20px 10px;
 }
 
+/*hidden class: hide/show elements using JS*/
+.hidden{
+    display: none;
+}
 
+/*header and nav bar*/
 .navbar{
     width: 100%;
     margin: 0 auto;
@@ -20,32 +25,27 @@ main{
 
 }
 
-
 header::after{
     content: '';
     display: table;
     clear: both;
 }
 
-
 nav{
     float: right;
-
 }
-
 
 .nav-logo {
     float: left;
     padding: 10px 0;
-   
 }
 
 nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
- 
 }
+
 nav ul li{
     display: inline-block;
     margin-left: 70px;
@@ -53,12 +53,12 @@ nav ul li{
 
     position: relative;
   }
+
 nav ul li a{
     color:#070707; 
     text-decoration: none;
     text-transform: uppercase;
     font-size: 28px;
-
 }
 
 nav a:hover{
@@ -81,8 +81,10 @@ nav a::before{
 
 nav a:hover::before{
     width: 100%;
-
 }
+
+/*plants dropdown (nav)*/
+
 
 /*cards on home page*/
 .card-container{
