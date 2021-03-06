@@ -13,10 +13,7 @@ main{
     padding: 20px 10px;
 }
 
-.header{
-    margin-top: 125px;
-}
-
+/*header and nav bar*/
 .navbar{
     width: 100%;
     margin: 0 auto;
@@ -33,47 +30,45 @@ main{
 
 }
 
-
 header::after{
     content: '';
     display: table;
     clear: both;
 }
 
-
 nav{
     float: right;
-    
-
 }
-
 
 .nav-logo {
     float: left;
     padding: 10px 0;
-    
 }
 
 nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
- 
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
+
 nav ul li{
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 35px;
-
+    /* margin-left: 70px; */
+    margin: 35px 40px 0px 40px;
     position: relative;
+    text-align:center;
   }
+
 nav ul li a{
     color:#070707; 
     text-decoration: none;
     text-transform: uppercase;
     font-size: 28px;
-
+    margin: auto;
+    /* margin: 0px 50px; */
 }
 
 nav a:hover{
@@ -96,8 +91,36 @@ nav a::before{
 
 nav a:hover::before{
     width: 100%;
-
 }
+
+/*make dropdown appear on hover. CHANGE TO JS*/
+.navplants:hover + .hidden {
+    display: block;
+}
+
+/*navbar: plants dropdown*/
+.nav-dropdown{
+    position: absolute;
+    /* width: 150px; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(225, 236, 240);
+    border: 1px solid #10374e;
+    border-radius: 5px;
+}
+
+.nav-dropdown li{
+    padding: 5px;
+    margin:0px;
+    text-align: left;
+    /*background-color: #eff2f3; */
+    border:none;
+}
+
+.nav-dropdown li a{
+    font-size: 20px;
+}
+
 
 /*cards on home page*/
 .card-container{
@@ -145,6 +168,11 @@ footer{
 
 footer .about-us{
     color: azure;
+}
+
+/*hidden class: hide/show elements using JS*/
+.hidden{
+    display: none;
 }
 
 /* Mobile */
