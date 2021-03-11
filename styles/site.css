@@ -8,7 +8,6 @@ body{
 
 }
 
-
 main{
     padding: 20px 10px;
 }
@@ -23,7 +22,7 @@ main{
    
     top: 0;
     left: 0;
-    height: 125px;
+  
     padding: 10px 100px;
     position: fixed;
     box-sizing: border-box;
