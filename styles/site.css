@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     font-family: sans-serif;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     font-weight: 400;
     background:rgb(225, 236, 240); 
@@ -22,7 +22,6 @@ main{
    
     top: 0;
     left: 0;
-  
     padding: 10px 100px;
     position: fixed;
     box-sizing: border-box;
