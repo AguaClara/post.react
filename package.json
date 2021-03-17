@@ -9,6 +9,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
+    "victory": "^35.4.11",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -34,5 +35,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "New POST site!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AguaClara/post.react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AguaClara/post.react/issues"
+  },
+  "homepage": "https://github.com/AguaClara/post.react#readme"
 }
